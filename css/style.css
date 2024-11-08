@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +7,27 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f8f5f5;
     color: #161616;
     line-height: 1.6;
 }
 
+
+
 header {
-    background-color: #0c0505;
+    background-color: #262264;
     padding: 20px 0;
-    text-align: center;
+        text-align: center;
     color: white;
+    
 }
 
+body nav ul li div {
+    text-align: left;
+    color: #ffffff;
+    margin-left: 383px; 
+
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -36,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff9800;
+    color: #8f8270;
 }
 
 footer {
@@ -58,17 +68,21 @@ main {
     margin: 0 auto;
 }
 
-h1,
+h1{
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+
+}
 h2 {
     color: #333;
 }
 
 .intro {
-    background-color: #f5a42a;
+    background-color:#2d3540;
     color: white;
-    padding: 20px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 #prix-crypto {
